@@ -1,4 +1,4 @@
-# msn\CustomFieldsApi
+# Msn\Apis\Clickup\CustomFieldsApi
 
 All URIs are relative to https://api.clickup.com, except if the operation defines another base path.
 
@@ -26,7 +26,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new msn\Api\CustomFieldsApi(
+$apiInstance = new Msn\Apis\Clickup\Api\CustomFieldsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -81,7 +81,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new msn\Api\CustomFieldsApi(
+$apiInstance = new Msn\Apis\Clickup\Api\CustomFieldsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -136,7 +136,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new msn\Api\CustomFieldsApi(
+$apiInstance = new Msn\Apis\Clickup\Api\CustomFieldsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),

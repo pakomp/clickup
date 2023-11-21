@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  msn\Model
+ * @package  Msn\Apis\Clickup\Model
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,12 +26,12 @@
  * Do not edit the class manually.
  */
 
-namespace msn\Model;
+namespace Msn\Apis\Clickup\Model;
 
 /**
  * Interface abstracting model access.
  *
- * @package msn\Model
+ * @package Msn\Apis\Clickup\Model
  * @author  OpenAPI Generator team
  */
 interface ModelInterface

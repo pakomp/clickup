@@ -4,7 +4,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  msn
+ * @package  Msn\Apis\Clickup
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace msn\Api;
+namespace Msn\Apis\Clickup\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use msn\ApiException;
-use msn\Configuration;
-use msn\HeaderSelector;
-use msn\ObjectSerializer;
+use Msn\Apis\Clickup\ApiException;
+use Msn\Apis\Clickup\Configuration;
+use Msn\Apis\Clickup\HeaderSelector;
+use Msn\Apis\Clickup\ObjectSerializer;
 
 /**
  * GuestsApi Class Doc Comment
  *
  * @category Class
- * @package  msn
+ * @package  Msn\Apis\Clickup
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -156,7 +156,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2FolderFolderIdGuestGuestIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -172,7 +172,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2FolderFolderIdGuestGuestIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -365,7 +365,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2FolderFolderIdGuestGuestIdPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -381,7 +381,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2FolderFolderIdGuestGuestIdPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -574,7 +574,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ListListIdGuestGuestIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -590,7 +590,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ListListIdGuestGuestIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -783,7 +783,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ListListIdGuestGuestIdPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -799,7 +799,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ListListIdGuestGuestIdPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -992,7 +992,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TaskTaskIdGuestGuestIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1008,7 +1008,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TaskTaskIdGuestGuestIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1202,7 +1202,7 @@ class GuestsApi
      * @param  object $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TaskTaskIdGuestGuestIdPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1219,7 +1219,7 @@ class GuestsApi
      * @param  object $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TaskTaskIdGuestGuestIdPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1423,7 +1423,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdGuestGuestIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1439,7 +1439,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdGuestGuestIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1632,7 +1632,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdGuestGuestIdGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1648,7 +1648,7 @@ class GuestsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdGuestGuestIdGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1842,7 +1842,7 @@ class GuestsApi
      * @param  object $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdGuestGuestIdPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1859,7 +1859,7 @@ class GuestsApi
      * @param  object $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdGuestGuestIdPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2065,7 +2065,7 @@ class GuestsApi
      * @param  object $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdGuestPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2083,7 +2083,7 @@ class GuestsApi
      * @param  object $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdGuestPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */

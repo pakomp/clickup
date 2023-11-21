@@ -4,7 +4,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  msn
+ * @package  Msn\Apis\Clickup
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace msn\Api;
+namespace Msn\Apis\Clickup\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use msn\ApiException;
-use msn\Configuration;
-use msn\HeaderSelector;
-use msn\ObjectSerializer;
+use Msn\Apis\Clickup\ApiException;
+use Msn\Apis\Clickup\Configuration;
+use Msn\Apis\Clickup\HeaderSelector;
+use Msn\Apis\Clickup\ObjectSerializer;
 
 /**
  * ChecklistsApi Class Doc Comment
  *
  * @category Class
- * @package  msn
+ * @package  Msn\Apis\Clickup
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -144,7 +144,7 @@ class ChecklistsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ChecklistChecklistIdChecklistItemChecklistItemIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -160,7 +160,7 @@ class ChecklistsApi
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ChecklistChecklistIdChecklistItemChecklistItemIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -355,7 +355,7 @@ class ChecklistsApi
      * @param  string $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ChecklistChecklistIdChecklistItemChecklistItemIdPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -373,7 +373,7 @@ class ChecklistsApi
      * @param  string $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ChecklistChecklistIdChecklistItemChecklistItemIdPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -587,7 +587,7 @@ class ChecklistsApi
      * @param  string $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ChecklistChecklistIdChecklistItemPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -605,7 +605,7 @@ class ChecklistsApi
      * @param  string $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ChecklistChecklistIdChecklistItemPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -818,7 +818,7 @@ class ChecklistsApi
      * @param  string $content_type content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ChecklistChecklistIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -835,7 +835,7 @@ class ChecklistsApi
      * @param  string $content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ChecklistChecklistIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1038,7 +1038,7 @@ class ChecklistsApi
      * @param  string $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ChecklistChecklistIdPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1056,7 +1056,7 @@ class ChecklistsApi
      * @param  string $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ChecklistChecklistIdPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1270,7 +1270,7 @@ class ChecklistsApi
      * @param  string $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TaskTaskIdChecklistPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1288,7 +1288,7 @@ class ChecklistsApi
      * @param  string $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TaskTaskIdChecklistPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */

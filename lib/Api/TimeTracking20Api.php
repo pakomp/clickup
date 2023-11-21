@@ -4,7 +4,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  msn
+ * @package  Msn\Apis\Clickup
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace msn\Api;
+namespace Msn\Apis\Clickup\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use msn\ApiException;
-use msn\Configuration;
-use msn\HeaderSelector;
-use msn\ObjectSerializer;
+use Msn\Apis\Clickup\ApiException;
+use Msn\Apis\Clickup\Configuration;
+use Msn\Apis\Clickup\HeaderSelector;
+use Msn\Apis\Clickup\ObjectSerializer;
 
 /**
  * TimeTracking20Api Class Doc Comment
  *
  * @category Class
- * @package  msn
+ * @package  Msn\Apis\Clickup
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -165,7 +165,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesCurrentGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -181,7 +181,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesCurrentGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -374,7 +374,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -390,7 +390,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -584,7 +584,7 @@ class TimeTracking20Api
      * @param  object $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -601,7 +601,7 @@ class TimeTracking20Api
      * @param  object $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -806,7 +806,7 @@ class TimeTracking20Api
      * @param  string $timer_id timer_id (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesStartTimerIdPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -823,7 +823,7 @@ class TimeTracking20Api
      * @param  string $timer_id (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesStartTimerIdPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1034,7 +1034,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesStopPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1050,7 +1050,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesStopPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1244,7 +1244,7 @@ class TimeTracking20Api
      * @param  string $content_type content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTagsDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1261,7 +1261,7 @@ class TimeTracking20Api
      * @param  string $content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTagsDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1462,7 +1462,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTagsGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1478,7 +1478,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTagsGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1672,7 +1672,7 @@ class TimeTracking20Api
      * @param  object $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTagsPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1689,7 +1689,7 @@ class TimeTracking20Api
      * @param  object $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTagsPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1894,7 +1894,7 @@ class TimeTracking20Api
      * @param  object $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTagsPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1911,7 +1911,7 @@ class TimeTracking20Api
      * @param  object $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTagsPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2115,7 +2115,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTimeEntryIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2131,7 +2131,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTimeEntryIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2324,7 +2324,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTimeEntryIdGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2340,7 +2340,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTimeEntryIdGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2533,7 +2533,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTimerIdHistoryGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2549,7 +2549,7 @@ class TimeTracking20Api
      *
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTimerIdHistoryGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2743,7 +2743,7 @@ class TimeTracking20Api
      * @param  object $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTimerIdPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2760,7 +2760,7 @@ class TimeTracking20Api
      * @param  object $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdTimeEntriesTimerIdPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */

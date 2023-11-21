@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  msn
+ * @package  Msn\Apis\Clickup
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace msn;
+namespace Msn\Apis\Clickup;
 
 use GuzzleHttp\Psr7\Utils;
-use msn\Model\ModelInterface;
+use Msn\Apis\Clickup\Model\ModelInterface;
 
 /**
  * ObjectSerializer Class Doc Comment
  *
  * @category Class
- * @package  msn
+ * @package  Msn\Apis\Clickup
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -513,7 +513,7 @@ class ObjectSerializer
             // If a discriminator is defined and points to a valid subclass, use it.
             $discriminator = $class::DISCRIMINATOR;
             if (!empty($discriminator) && isset($data->{$discriminator}) && is_string($data->{$discriminator})) {
-                $subclass = '\msn\Model\\' . $data->{$discriminator};
+                $subclass = '\Msn\Apis\Clickup\Model\\' . $data->{$discriminator};
                 if (is_subclass_of($subclass, $class)) {
                     $class = $subclass;
                 }

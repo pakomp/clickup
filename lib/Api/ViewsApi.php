@@ -4,7 +4,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  msn
+ * @package  Msn\Apis\Clickup
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace msn\Api;
+namespace Msn\Apis\Clickup\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use msn\ApiException;
-use msn\Configuration;
-use msn\HeaderSelector;
-use msn\ObjectSerializer;
+use Msn\Apis\Clickup\ApiException;
+use Msn\Apis\Clickup\Configuration;
+use Msn\Apis\Clickup\HeaderSelector;
+use Msn\Apis\Clickup\ObjectSerializer;
 
 /**
  * ViewsApi Class Doc Comment
  *
  * @category Class
- * @package  msn
+ * @package  Msn\Apis\Clickup
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -163,7 +163,7 @@ class ViewsApi
      * @param  string $content_type content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2FolderFolderIdViewGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -180,7 +180,7 @@ class ViewsApi
      * @param  string $content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2FolderFolderIdViewGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -383,7 +383,7 @@ class ViewsApi
      * @param  string $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2FolderFolderIdViewPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -401,7 +401,7 @@ class ViewsApi
      * @param  string $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2FolderFolderIdViewPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -614,7 +614,7 @@ class ViewsApi
      * @param  string $content_type content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ListListIdViewGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -631,7 +631,7 @@ class ViewsApi
      * @param  string $content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ListListIdViewGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -834,7 +834,7 @@ class ViewsApi
      * @param  string $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ListListIdViewPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -852,7 +852,7 @@ class ViewsApi
      * @param  string $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ListListIdViewPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1065,7 +1065,7 @@ class ViewsApi
      * @param  string $content_type content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2SpaceSpaceIdViewGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1082,7 +1082,7 @@ class ViewsApi
      * @param  string $content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2SpaceSpaceIdViewGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1285,7 +1285,7 @@ class ViewsApi
      * @param  string $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2SpaceSpaceIdViewPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1303,7 +1303,7 @@ class ViewsApi
      * @param  string $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2SpaceSpaceIdViewPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1516,7 +1516,7 @@ class ViewsApi
      * @param  string $content_type content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdViewGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1533,7 +1533,7 @@ class ViewsApi
      * @param  string $content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdViewGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1736,7 +1736,7 @@ class ViewsApi
      * @param  string $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdViewPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1754,7 +1754,7 @@ class ViewsApi
      * @param  string $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2TeamTeamIdViewPost'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1967,7 +1967,7 @@ class ViewsApi
      * @param  string $content_type content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ViewViewIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1984,7 +1984,7 @@ class ViewsApi
      * @param  string $content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ViewViewIdDelete'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2186,7 +2186,7 @@ class ViewsApi
      * @param  string $content_type content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ViewViewIdGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2203,7 +2203,7 @@ class ViewsApi
      * @param  string $content_type (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ViewViewIdGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2406,7 +2406,7 @@ class ViewsApi
      * @param  string $body body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ViewViewIdPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2424,7 +2424,7 @@ class ViewsApi
      * @param  string $body (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ViewViewIdPut'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2638,7 +2638,7 @@ class ViewsApi
      * @param  int $page page (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ViewViewIdTaskGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2656,7 +2656,7 @@ class ViewsApi
      * @param  int $page (optional)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['apiV2ViewViewIdTaskGet'] to see the possible values for this operation
      *
-     * @throws \msn\ApiException on non-2xx response or if the response body is not in the expected format
+     * @throws \Msn\Apis\Clickup\ApiException on non-2xx response or if the response body is not in the expected format
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
